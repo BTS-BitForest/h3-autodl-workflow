@@ -1,0 +1,5 @@
+{
+  "dsh.remote.enabled": true,
+  "dsh.executablePath": "/usr/local/bin/dsh",
+  "dshPanel.autoStart": false
+}

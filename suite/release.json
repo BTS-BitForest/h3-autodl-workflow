@@ -1,0 +1,34 @@
+{
+  "comfy_commit": "169fcf35a2fc163fec31338b816503ddac0d3fcf",
+  "gateway_modules": [
+    "architecture",
+    "dialogue_contract",
+    "h3_client",
+    "job_timing",
+    "live_progress",
+    "lora_profiles",
+    "notifications",
+    "pe_continuation",
+    "pe_service",
+    "pe_worker",
+    "ref_format",
+    "reference_media",
+    "reference_video",
+    "server",
+    "temporal_guides",
+    "video_enhance"
+  ],
+  "models": "bootstrap/models.json",
+  "runtime": "Python3.12.3 / torch2.14.0.dev20260804+cu130",
+  "release": "v2026.09.30",
+  "features": [
+    "durable-pe-to-video",
+    "pe-inclusive-dashboard",
+    "reference-video-24fps-derivative",
+    "targeted-task-cancel",
+    "formal-monogram-icon",
+    "modelscope-priority-sha256-download"
+  ],
+  "default_source": "modelscope.cn for 15 verified files; hf-mirror.com otherwise",
+  "launcher_sha256": "3ff2a9dc0ff1f364820d7c6e3cddab6818a61208672b38e0341fb24dc6b15f71"
+}

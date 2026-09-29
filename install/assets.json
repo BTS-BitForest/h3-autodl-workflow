@@ -1,0 +1,40 @@
+{
+  "release": "v2026.09.30",
+  "python_parts": [
+    "H3-Python.tar.zst.part000",
+    "H3-Python.tar.zst.part001",
+    "H3-Python.tar.zst.part002"
+  ],
+  "files": [
+    {
+      "name": "H3-Agents.tar.zst",
+      "size": 205185360,
+      "sha256": "8ed65f531c8bdaa73354c8da1bcd9cdaf379b80a06692d317a9727e13deed62d"
+    },
+    {
+      "name": "H3-Python.tar.zst.part000",
+      "size": 1887436800,
+      "sha256": "b32ad6ec242a17f880ae835c8cc7d17bf3547bd0fa2cfb78fe1c80dec20d7404"
+    },
+    {
+      "name": "H3-Python.tar.zst.part001",
+      "size": 1887436800,
+      "sha256": "3f94192768523e1212d109a9ca41417f6ae748599198a08d296a94af7c35240b"
+    },
+    {
+      "name": "H3-Python.tar.zst.part002",
+      "size": 1342227623,
+      "sha256": "c5451eda663dada3f381ea8f59c9994e92a38f22b82d50c3612da7f3f36b9a7b"
+    },
+    {
+      "name": "H3-Venv.tar.zst",
+      "size": 134063109,
+      "sha256": "afa6aedb45b12ef5ee84642ee17cc0a03e25482274f3f5632c9130056b694325"
+    },
+    {
+      "name": "H3-Windows-Launcher.zip",
+      "size": 108680194,
+      "sha256": "3ff2a9dc0ff1f364820d7c6e3cddab6818a61208672b38e0341fb24dc6b15f71"
+    }
+  ]
+}

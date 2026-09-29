@@ -1,0 +1,362 @@
+{
+  "version": 2,
+  "scope": "Current H3 + all installed H3 LoRAs + PE + RealESRGAN; legacy WAN excluded",
+  "files": [
+    {
+      "repo": "Comfy-Org/MiniMax-H3",
+      "revision": "a98869194787969724c7425d95d0ed73ce9202af",
+      "file": "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+      "destination": "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+      "size": 20970379616,
+      "sha256": "e889202c41dafb67b10d67b97f0d8541508036a6090af23425a5c2615d03c47a",
+      "sources": [
+        "https://modelscope.cn/models/Comfy-Org/MiniMax-H3/resolve/02d0e736e1112426c30683e0ed8fd7182a4e5d6d/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "https://hf-mirror.com/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors"
+      ]
+    },
+    {
+      "repo": "Comfy-Org/MiniMax-H3",
+      "revision": "a98869194787969724c7425d95d0ed73ce9202af",
+      "file": "diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "destination": "diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "size": 20970379616,
+      "sha256": "9255f52b6677845ad238f20dfaafa94727053694127ab7f255c048f0f9365779",
+      "sources": [
+        "https://modelscope.cn/models/Comfy-Org/MiniMax-H3/resolve/d51b9ec4bf7d7af1ce11bcbbd1a809aadb38011e/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "https://hf-mirror.com/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors"
+      ]
+    },
+    {
+      "destination": "loras/Bunny_weapon_combatV1.safetensors",
+      "size": 155110272,
+      "sha256": "d49de2902f3ea5e6889d9489c031ed64694de93d6a77c111d164f83c0dc359df",
+      "repo": "JOKER141/MiniMax-H3-Weapon-Combat-LoRA",
+      "revision": "5f120cd1499a64feaab77e0e88451f45f2ab8155",
+      "file": "Bunny_weapon_combatV1.safetensors",
+      "sources": [
+        "https://hf-mirror.com/JOKER141/MiniMax-H3-Weapon-Combat-LoRA/resolve/5f120cd1499a64feaab77e0e88451f45f2ab8155/Bunny_weapon_combatV1.safetensors",
+        "https://huggingface.co/JOKER141/MiniMax-H3-Weapon-Combat-LoRA/resolve/5f120cd1499a64feaab77e0e88451f45f2ab8155/Bunny_weapon_combatV1.safetensors"
+      ]
+    },
+    {
+      "destination": "loras/H3_Combat_V2.safetensors",
+      "size": 155110280,
+      "sha256": "5b3edb09e9d6029439badf9bc9db4ba4a355ae679b0810888de82c4793c0bac8",
+      "repo": "JOKER141/MiniMax-H3-Combat-Base-V2",
+      "revision": "233a183fb7d28b3b10d777b00d9b3ed3c691af81",
+      "file": "H3_Combat_V2.safetensors",
+      "sources": [
+        "https://hf-mirror.com/JOKER141/MiniMax-H3-Combat-Base-V2/resolve/233a183fb7d28b3b10d777b00d9b3ed3c691af81/H3_Combat_V2.safetensors",
+        "https://huggingface.co/JOKER141/MiniMax-H3-Combat-Base-V2/resolve/233a183fb7d28b3b10d777b00d9b3ed3c691af81/H3_Combat_V2.safetensors"
+      ]
+    },
+    {
+      "destination": "loras/Minimax H3真实电影质感V0.1.safetensors",
+      "size": 309965208,
+      "sha256": "51dda79218ea126cbb2e08f3a6d9cc595e2224f4977d7618061954043a8bafcf",
+      "repo": "orangesouth/MinimaxH3CinematicRealism",
+      "revision": "05c48f1640b06b839ef102ee8640ad7e1fcdcdc2",
+      "file": "Minimax H3真实电影质感V0.1.safetensors",
+      "sources": [
+        "https://hf-mirror.com/orangesouth/MinimaxH3CinematicRealism/resolve/05c48f1640b06b839ef102ee8640ad7e1fcdcdc2/Minimax%20H3%E7%9C%9F%E5%AE%9E%E7%94%B5%E5%BD%B1%E8%B4%A8%E6%84%9FV0.1.safetensors",
+        "https://huggingface.co/orangesouth/MinimaxH3CinematicRealism/resolve/05c48f1640b06b839ef102ee8640ad7e1fcdcdc2/Minimax%20H3%E7%9C%9F%E5%AE%9E%E7%94%B5%E5%BD%B1%E8%B4%A8%E6%84%9FV0.1.safetensors"
+      ]
+    },
+    {
+      "destination": "loras/Motion_Repair.safetensors",
+      "size": 155110272,
+      "sha256": "a678a3657cefd5c2c2712f892da2f71be53c3f252e335557e918854f8abc579f",
+      "repo": "JOKER141/MiniMax-H3-General-Motion-Continuity-Repair",
+      "revision": "c0ea12565e2e21834c7a1edf42e705d88a8b11ef",
+      "file": "Motion_Repair.safetensors",
+      "sources": [
+        "https://hf-mirror.com/JOKER141/MiniMax-H3-General-Motion-Continuity-Repair/resolve/c0ea12565e2e21834c7a1edf42e705d88a8b11ef/Motion_Repair.safetensors",
+        "https://huggingface.co/JOKER141/MiniMax-H3-General-Motion-Continuity-Repair/resolve/c0ea12565e2e21834c7a1edf42e705d88a8b11ef/Motion_Repair.safetensors"
+      ]
+    },
+    {
+      "destination": "loras/better_motion_h3_lora_v1_500.safetensors",
+      "size": 310168816,
+      "sha256": "285f9ed3fbb735c3625fca0d22166c7450ad7acb552a869fcbbd8e86e79d1f4c",
+      "repo": "vpakarinen/better-human-motion-h3-lora",
+      "revision": "72a74b7128e65685127b3a4e5ed685b23b135bbd",
+      "file": "better_motion_h3_lora_v1_500.safetensors",
+      "sources": [
+        "https://modelscope.cn/models/vpakarinen/better-human-motion-h3-lora/resolve/d10e103c7db9557da140e33a2717a0b1188e778f/better_motion_h3_lora_v1_500.safetensors",
+        "https://hf-mirror.com/vpakarinen/better-human-motion-h3-lora/resolve/72a74b7128e65685127b3a4e5ed685b23b135bbd/better_motion_h3_lora_v1_500.safetensors",
+        "https://huggingface.co/vpakarinen/better-human-motion-h3-lora/resolve/72a74b7128e65685127b3a4e5ed685b23b135bbd/better_motion_h3_lora_v1_500.safetensors"
+      ]
+    },
+    {
+      "destination": "loras/h3-realism-people-t2v-i2v-r2v.safetensors",
+      "size": 131229656,
+      "sha256": "acc529601d2da117fb81179e76c56e488a3beab1171659d305f04fa3655b787e",
+      "repo": "fal/MiniMax-H3-Realism-People-LoRA",
+      "revision": "039cc8579d7aa357a882d7f4111b25da4f72dccc",
+      "file": "h3-realism-people-t2v-i2v-r2v.safetensors",
+      "sources": [
+        "https://modelscope.cn/models/fal/MiniMax-H3-Realism-People-LoRA/resolve/00d43365ffe58def49f6ba7ec9db8f1f49b01ee6/h3-realism-people-t2v-i2v-r2v.safetensors",
+        "https://hf-mirror.com/fal/MiniMax-H3-Realism-People-LoRA/resolve/039cc8579d7aa357a882d7f4111b25da4f72dccc/h3-realism-people-t2v-i2v-r2v.safetensors",
+        "https://huggingface.co/fal/MiniMax-H3-Realism-People-LoRA/resolve/039cc8579d7aa357a882d7f4111b25da4f72dccc/h3-realism-people-t2v-i2v-r2v.safetensors"
+      ]
+    },
+    {
+      "repo": "Comfy-Org/MiniMax-H3",
+      "revision": "a98869194787969724c7425d95d0ed73ce9202af",
+      "file": "loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
+      "destination": "loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
+      "size": 1956192992,
+      "sha256": "c396a9a06f58399e9df9754b18299818d84a2ddd371724ba48fe4a41221437dc",
+      "sources": [
+        "https://modelscope.cn/models/Comfy-Org/MiniMax-H3/resolve/ead3b01917a16b58d8a834d6a0076d70df091c06/loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
+        "https://hf-mirror.com/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors",
+        "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/loras/minimax_h3_fl2v_turbo_4step_v1.0_768p_comfyui_bf16.safetensors"
+      ]
+    },
+    {
+      "repo": "lightx2v/Minimax-h3-Turbo",
+      "revision": "3ec17a324ced54151364f24f8b5fb6bf7e26414f",
+      "file": "minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+      "size": 1956193000,
+      "sha256": "08cfe946033af7d27719b964b6e0a0e50c32138daabbd6ce4137e23df6bf9980",
+      "destination": "loras/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+      "sources": [
+        "https://modelscope.cn/models/lightx2v/Minimax-h3-Turbo/resolve/b9591d0cd28b7e64106551ac3843dcfee07d7785/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+        "https://hf-mirror.com/lightx2v/Minimax-h3-Turbo/resolve/3ec17a324ced54151364f24f8b5fb6bf7e26414f/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+        "https://huggingface.co/lightx2v/Minimax-h3-Turbo/resolve/3ec17a324ced54151364f24f8b5fb6bf7e26414f/minimax_h3_fl2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors"
+      ]
+    },
+    {
+      "repo": "Comfy-Org/MiniMax-H3",
+      "revision": "a98869194787969724c7425d95d0ed73ce9202af",
+      "file": "loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+      "destination": "loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+      "size": 1956193000,
+      "sha256": "2339acdf19bfe123f46b971ea35d367a84adb85de43627e1eceafa5a5b2b111e",
+      "sources": [
+        "https://modelscope.cn/models/Comfy-Org/MiniMax-H3/resolve/ead3b01917a16b58d8a834d6a0076d70df091c06/loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+        "https://hf-mirror.com/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors",
+        "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/loras/minimax_h3_fl2v_turbo_8step_v1.0_comfyui_bf16.safetensors"
+      ]
+    },
+    {
+      "repo": "Comfy-Org/MiniMax-H3",
+      "revision": "a98869194787969724c7425d95d0ed73ce9202af",
+      "file": "loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "destination": "loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+      "size": 1956193000,
+      "sha256": "5b9ab5ade15d0775676d01a907268a69a1468dc6033b3b0d3ded5502f3ebb84c",
+      "sources": [
+        "https://modelscope.cn/models/Comfy-Org/MiniMax-H3/resolve/ead3b01917a16b58d8a834d6a0076d70df091c06/loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+        "https://hf-mirror.com/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors",
+        "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/loras/minimax_h3_ref2v_turbo_4step_v0.1_comfyui_bf16.safetensors"
+      ]
+    },
+    {
+      "repo": "lightx2v/Minimax-h3-Turbo",
+      "revision": "3ec17a324ced54151364f24f8b5fb6bf7e26414f",
+      "file": "minimax_h3_ref2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+      "destination": "loras/minimax_h3_ref2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+      "sha256": "6a56f41ab4229c9dd845b9501bbd475ee57e112d846cf2e819d534a1ae928c5a",
+      "size": 1956193000,
+      "sources": [
+        "https://modelscope.cn/models/lightx2v/Minimax-h3-Turbo/resolve/9056a6d9bdb2f0b2de6f03cbf4e3ad399df57343/minimax_h3_ref2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+        "https://hf-mirror.com/lightx2v/Minimax-h3-Turbo/resolve/3ec17a324ced54151364f24f8b5fb6bf7e26414f/minimax_h3_ref2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors",
+        "https://huggingface.co/lightx2v/Minimax-h3-Turbo/resolve/3ec17a324ced54151364f24f8b5fb6bf7e26414f/minimax_h3_ref2v_turbo_8step_v1.0_768p_comfyui_bf16.safetensors"
+      ]
+    },
+    {
+      "destination": "loras/minimax_h3_turbo_v4_step600_ema.safetensors",
+      "size": 779849816,
+      "sha256": "5f3a626cd72c93a8b9318d6760c510bc5092d2ab13aaba1f932c5bab07a416d3",
+      "repo": "larryvrh/MiniMax-H3-Turbo-Lora",
+      "revision": "43a74557ac3f6539db8e0f2a959d03feb7a81480",
+      "file": "minimax_h3_turbo_v4_step600_ema.safetensors",
+      "sources": [
+        "https://modelscope.cn/models/larryvrh/MiniMax-H3-Turbo-Lora/resolve/593f8550fe7e46d1d3ca5a6ce6bfc8c2a5998e37/minimax_h3_turbo_v4_step600_ema.safetensors",
+        "https://hf-mirror.com/larryvrh/MiniMax-H3-Turbo-Lora/resolve/43a74557ac3f6539db8e0f2a959d03feb7a81480/minimax_h3_turbo_v4_step600_ema.safetensors",
+        "https://huggingface.co/larryvrh/MiniMax-H3-Turbo-Lora/resolve/43a74557ac3f6539db8e0f2a959d03feb7a81480/minimax_h3_turbo_v4_step600_ema.safetensors"
+      ]
+    },
+    {
+      "destination": "loras/wushu_spatial_physics_clean_3000_pruned.safetensors",
+      "size": 155109672,
+      "sha256": "7d14f3701560068e7004159c8b2a7278bd2dbfc9e5e3b60d0bc9aef6c049919d",
+      "repo": "Jojocodex/minimax-h3-spatial-physics-lora",
+      "revision": "476b24df28b9b7cc5481b750469698f5cc4b0558",
+      "file": "wushu_spatial_physics_clean_3000_pruned.safetensors",
+      "sources": [
+        "https://hf-mirror.com/Jojocodex/minimax-h3-spatial-physics-lora/resolve/476b24df28b9b7cc5481b750469698f5cc4b0558/wushu_spatial_physics_clean_3000_pruned.safetensors",
+        "https://huggingface.co/Jojocodex/minimax-h3-spatial-physics-lora/resolve/476b24df28b9b7cc5481b750469698f5cc4b0558/wushu_spatial_physics_clean_3000_pruned.safetensors"
+      ]
+    },
+    {
+      "repo": "alibaba-pai/MiniMax-H3-Acc-LoRAs",
+      "revision": "335001fb9e5455d68a0caa18ec2e319072150328",
+      "file": "MiniMax-H3-FL2VA-Acc-8Step.safetensors",
+      "destination": "pdd_acc/MiniMax-H3-FL2VA-Acc-8Step.safetensors",
+      "size": 1372450680,
+      "sha256": "0b29be7042d883970eb0c20774a9ba03d95669ed80a721bb4d21be8ea0d0a196",
+      "sources": [
+        "https://hf-mirror.com/alibaba-pai/MiniMax-H3-Acc-LoRAs/resolve/335001fb9e5455d68a0caa18ec2e319072150328/MiniMax-H3-FL2VA-Acc-8Step.safetensors",
+        "https://huggingface.co/alibaba-pai/MiniMax-H3-Acc-LoRAs/resolve/335001fb9e5455d68a0caa18ec2e319072150328/MiniMax-H3-FL2VA-Acc-8Step.safetensors"
+      ]
+    },
+    {
+      "repo": "alibaba-pai/MiniMax-H3-Acc-LoRAs",
+      "revision": "335001fb9e5455d68a0caa18ec2e319072150328",
+      "file": "MiniMax-H3-Ref2VA-Acc-8Step.safetensors",
+      "destination": "pdd_acc/MiniMax-H3-Ref2VA-Acc-8Step.safetensors",
+      "size": 1372450680,
+      "sha256": "111c82e669f6e20e628228172edf39395f1a9fc3ad049793895e542c0f55b18c",
+      "sources": [
+        "https://hf-mirror.com/alibaba-pai/MiniMax-H3-Acc-LoRAs/resolve/335001fb9e5455d68a0caa18ec2e319072150328/MiniMax-H3-Ref2VA-Acc-8Step.safetensors",
+        "https://huggingface.co/alibaba-pai/MiniMax-H3-Acc-LoRAs/resolve/335001fb9e5455d68a0caa18ec2e319072150328/MiniMax-H3-Ref2VA-Acc-8Step.safetensors"
+      ]
+    },
+    {
+      "repo": "Comfy-Org/MiniMax-H3",
+      "revision": "a98869194787969724c7425d95d0ed73ce9202af",
+      "file": "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "destination": "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "size": 15687142551,
+      "sha256": "35a88d51044231fe332301d7a62aa81e3f2cba62febeb446e2c1e3e0ef76f2c6",
+      "sources": [
+        "https://modelscope.cn/models/Comfy-Org/MiniMax-H3/resolve/160418ce87d04db418a33a0dbe904d5a2d774e3f/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "https://hf-mirror.com/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors"
+      ]
+    },
+    {
+      "destination": "upscale_models/realesr-general-x4v3.pth",
+      "size": 4885111,
+      "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292",
+      "bundled": "upscale_models/realesr-general-x4v3.pth",
+      "sources": []
+    },
+    {
+      "repo": "Comfy-Org/MiniMax-H3",
+      "revision": "a98869194787969724c7425d95d0ed73ce9202af",
+      "file": "vae/minimax_h3_audio_vae_fp32.safetensors",
+      "destination": "vae/minimax_h3_audio_vae_fp32.safetensors",
+      "size": 605254808,
+      "sha256": "8e505d95dd1561d47abd43d4238fd40d9bb1ae9e147ed0a4cba778d76ae4db48",
+      "sources": [
+        "https://modelscope.cn/models/Comfy-Org/MiniMax-H3/resolve/dcdcca14e93e72d8cba0b6312771cf0779e85cc1/vae/minimax_h3_audio_vae_fp32.safetensors",
+        "https://hf-mirror.com/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/vae/minimax_h3_audio_vae_fp32.safetensors",
+        "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/vae/minimax_h3_audio_vae_fp32.safetensors"
+      ]
+    },
+    {
+      "repo": "Comfy-Org/MiniMax-H3",
+      "revision": "a98869194787969724c7425d95d0ed73ce9202af",
+      "file": "vae/minimax_h3_video_vae_fp16.safetensors",
+      "destination": "vae/minimax_h3_video_vae_fp16.safetensors",
+      "size": 5207808496,
+      "sha256": "7c1f131492e7eddacaac9069a61b81bdd39de5cc96561e677c5eab1cdce5e522",
+      "sources": [
+        "https://modelscope.cn/models/Comfy-Org/MiniMax-H3/resolve/76fce18cb387285747955c88756974596c9a5bb8/vae/minimax_h3_video_vae_fp16.safetensors",
+        "https://hf-mirror.com/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/vae/minimax_h3_video_vae_fp16.safetensors",
+        "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/a98869194787969724c7425d95d0ed73ce9202af/vae/minimax_h3_video_vae_fp16.safetensors"
+      ]
+    },
+    {
+      "destination": "pe/Qwen3.5-4B/LICENSE",
+      "size": 11544,
+      "sha256": "bbedc3fda3305820b977265f01b8619d87570a6739de3a5582c3464840f1e57a",
+      "bundled": "pe/Qwen3.5-4B/LICENSE",
+      "sources": []
+    },
+    {
+      "destination": "pe/Qwen3.5-4B/chat_template.jinja",
+      "size": 7756,
+      "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715",
+      "bundled": "pe/Qwen3.5-4B/chat_template.jinja",
+      "sources": []
+    },
+    {
+      "destination": "pe/Qwen3.5-4B/config.json",
+      "size": 3161,
+      "sha256": "ddc63e1c717afa86c865bb5e01313d89d72bb53b97ad4a8a03ba8510c0621670",
+      "bundled": "pe/Qwen3.5-4B/config.json",
+      "sources": []
+    },
+    {
+      "destination": "pe/Qwen3.5-4B/merges.txt",
+      "size": 3353259,
+      "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+      "bundled": "pe/Qwen3.5-4B/merges.txt",
+      "sources": []
+    },
+    {
+      "destination": "pe/Qwen3.5-4B/model.safetensors-00001-of-00002.safetensors",
+      "size": 5329398688,
+      "sha256": "26a93f066e1916adb13453dae5a0c707c0fbc71299ed98779571a907b8e74c61",
+      "repo": "Qwen/Qwen3.5-4B",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "file": "model.safetensors-00001-of-00002.safetensors",
+      "sources": [
+        "https://modelscope.cn/models/Qwen/Qwen3.5-4B/resolve/fcb1a040bb418b0b8add6f6f6c475386abc2cb97/model.safetensors-00001-of-00002.safetensors",
+        "https://hf-mirror.com/Qwen/Qwen3.5-4B/resolve/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/model.safetensors-00001-of-00002.safetensors",
+        "https://huggingface.co/Qwen/Qwen3.5-4B/resolve/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/model.safetensors-00001-of-00002.safetensors"
+      ]
+    },
+    {
+      "destination": "pe/Qwen3.5-4B/model.safetensors-00002-of-00002.safetensors",
+      "size": 3990429408,
+      "sha256": "cb544bd9bfae93dc59b0f22b292f5933573854a7f9b97835c67060d7d910e188",
+      "repo": "Qwen/Qwen3.5-4B",
+      "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+      "file": "model.safetensors-00002-of-00002.safetensors",
+      "sources": [
+        "https://modelscope.cn/models/Qwen/Qwen3.5-4B/resolve/fcb1a040bb418b0b8add6f6f6c475386abc2cb97/model.safetensors-00002-of-00002.safetensors",
+        "https://hf-mirror.com/Qwen/Qwen3.5-4B/resolve/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/model.safetensors-00002-of-00002.safetensors",
+        "https://huggingface.co/Qwen/Qwen3.5-4B/resolve/851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a/model.safetensors-00002-of-00002.safetensors"
+      ]
+    },
+    {
+      "destination": "pe/Qwen3.5-4B/model.safetensors.index.json",
+      "size": 76196,
+      "sha256": "cf3f798ee02ba45f9622aa8892a47369ab667d0afbf154ee7c2212de42e6302d",
+      "bundled": "pe/Qwen3.5-4B/model.safetensors.index.json",
+      "sources": []
+    },
+    {
+      "destination": "pe/Qwen3.5-4B/preprocessor_config.json",
+      "size": 390,
+      "sha256": "27225450ac9c6529872ee1924fcb0962ff5634834f817040f444118116f4e516",
+      "bundled": "pe/Qwen3.5-4B/preprocessor_config.json",
+      "sources": []
+    },
+    {
+      "destination": "pe/Qwen3.5-4B/tokenizer.json",
+      "size": 12807982,
+      "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "bundled": "pe/Qwen3.5-4B/tokenizer.json",
+      "sources": []
+    },
+    {
+      "destination": "pe/Qwen3.5-4B/tokenizer_config.json",
+      "size": 16710,
+      "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+      "bundled": "pe/Qwen3.5-4B/tokenizer_config.json",
+      "sources": []
+    },
+    {
+      "destination": "pe/Qwen3.5-4B/video_preprocessor_config.json",
+      "size": 385,
+      "sha256": "7768af27c1fafa9cc9011c1dc20067e03f8915e03b63504550e11d5066986d13",
+      "bundled": "pe/Qwen3.5-4B/video_preprocessor_config.json",
+      "sources": []
+    },
+    {
+      "destination": "pe/Qwen3.5-4B/vocab.json",
+      "size": 6722759,
+      "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+      "bundled": "pe/Qwen3.5-4B/vocab.json",
+      "sources": []
+    }
+  ]
+}

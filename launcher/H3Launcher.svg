@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs><linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#252D3B"/><stop offset="1" stop-color="#10151E"/></linearGradient><linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#CBD4E1"/></linearGradient></defs>
+  <rect x="8" y="8" width="240" height="240" rx="52" fill="url(#surface)"/>
+  <rect x="8.75" y="8.75" width="238.5" height="238.5" rx="51.25" fill="none" stroke="#FFFFFF" stroke-opacity=".13" stroke-width="1.5"/>
+  <path d="M54 78V178M103 78V178M54 128H103" fill="none" stroke="url(#metal)" stroke-width="19" stroke-linejoin="round"/>
+  <path d="M138 78H166C183 78 194 87 194 102C194 117 183 127 166 127H147M166 127C185 127 198 137 198 153C198 168 186 178 168 178H138" fill="none" stroke="url(#metal)" stroke-width="18" stroke-linejoin="round"/>
+</svg>
