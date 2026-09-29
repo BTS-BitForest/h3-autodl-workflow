@@ -11,7 +11,7 @@ try {
     }
     $bytes = [IO.File]::ReadAllBytes((Join-Path $PSScriptRoot 'deploy-linux.sh'))
     $encoded = [Convert]::ToBase64String($bytes)
-    $remote = "bash -c '" + '$(printf %s ' + $encoded + " | base64 -d)' -- --hold"
+    $remote = 'printf %s ' + $encoded + ' | base64 -d | bash -s -- --hold'
     Write-Host '密码由 SSH 直接读取，不会保存。首次连接请核对服务器指纹。'
     & ssh.exe -tt -o ExitOnForwardFailure=yes -o ServerAliveInterval=15 -o ServerAliveCountMax=3 -p $port -L '127.0.0.1:8190:127.0.0.1:8190' -L '127.0.0.1:8188:127.0.0.1:8188' $target $remote | ForEach-Object {
         $line = [string]$_

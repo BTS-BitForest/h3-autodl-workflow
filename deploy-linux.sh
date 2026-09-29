@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+export DEBIAN_FRONTEND=noninteractive
 REPO=BTS-BitForest/h3-autodl-workflow
 TAG=v2026.09.30
 HOLD=${1:-}
